@@ -1,0 +1,124 @@
+
+
+.grid-container {
+    
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+
+  
+  padding: 3px;
+}
+
+.grid-item {
+  padding: 5px 10px;  
+  width:59px ;
+  outline: none;
+  margin: 0.5px;
+  font-size: 1.5rem;
+  text-align: center;
+  border:2px solid;
+  border-color: grey;
+  
+}
+.grid-item:active{
+  background-color: #757474;
+}
+.equal{
+  color: orange;
+  background-color:#FFEEE5;
+  
+   grid-row: span 4; 
+}
+
+.plus{
+  background-color:#DE6834;
+
+
+}
+.minus{
+  background-color: #DE6834;;
+}
+.multiply{
+background-color: #DE6834;
+}
+.divide{
+  background-color: #DE6834;
+
+}
+.text
+{
+        width: 96%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+     padding:5px 5px;
+    
+   
+    
+
+}
+.text input{
+  background-color:white;
+ border-style: solid;
+border-width: thin;
+border-color: #FFFFFF;
+}
+
+.container{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+max-width: 250px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+      transform: translate(-50%,-50%);
+    
+
+
+
+}
+.heading{
+text-align: center;
+font-size: 1.5rem;
+color: rgb(155, 72, 72);
+padding:20px 0px;
+font-family: 'Antonio', sans-serif;
+
+}
+#number{
+
+    position: relative;
+width: 98%;
+
+border:2px solid;
+border-color: orange;
+outline: none;
+text-align: right;
+font-size: 1.5rem;
+font-weight: bold;
+
+}
+
+.grid-item {
+  
+  padding: 5px 10px;
+margin: 1px;
+  width:59px ;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+
+}
